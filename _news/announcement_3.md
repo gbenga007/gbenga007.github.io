@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Paper published in **Sensors** (MDPI): *High-Throughput and Accurate 3D Scanning of Cattle Using Time-of-Flight Sensors and Deep Learning*.
+Paper published in **Sensors** (MDPI): _High-Throughput and Accurate 3D Scanning of Cattle Using Time-of-Flight Sensors and Deep Learning_.
 [Paper](https://www.mdpi.com/1424-8220/24/16/5275)
