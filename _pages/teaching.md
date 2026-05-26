@@ -2,14 +2,26 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Teaching assistantships at the University of Missouri.
 nav: true
-nav_order: 6
-calendar: true
+nav_order: 4
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## ECE 3220 — C++ Programming for Embedded Systems
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+**Teaching Assistant · 8 semesters · University of Missouri**
 
-{% include courses.liquid %}
+Undergraduate course covering modern C++ for embedded and systems programming —
+memory management, pointers and references, object-oriented design, templates,
+the STL, and embedded-specific concerns (bit manipulation, hardware register
+access, real-time considerations).
+
+Responsibilities included:
+
+- Holding weekly office hours and one-on-one debugging sessions
+- Designing and grading lab assignments and programming projects
+- Leading recitation sections walking through C++ idioms (RAII, smart pointers, move semantics)
+- Mentoring students on debugging tools (gdb, valgrind) and build systems (make, CMake)
+
+Across 8 semesters I supported several hundred students through their first
+substantive systems-programming course.

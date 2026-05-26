@@ -2,33 +2,39 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Candidate · <a href='https://engineering.missouri.edu/'>University of Missouri</a> · 3D Computer Vision
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.png
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>ViGIR Lab</p>
+    <p>Department of Electrical Engineering and Computer Science</p>
+    <p>University of Missouri, Columbia, MO</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD candidate in the [Vision-Guided and Intelligent Robotics (ViGIR) Lab](https://vigir.missouri.edu/)
+at the University of Missouri, advised by [Prof. Guilherme DeSouza](https://engineering.missouri.edu/faculty/guilherme-desouza/).
+My research focuses on **3D computer vision** with three threads:
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+- **Sensor-rig 3D scanning.** High-throughput, accurate 3D capture of objects and animals (e.g. cattle phenotyping) using calibrated time-of-flight rigs paired with deep mesh refinement.
+- **Monocular depth under challenging conditions.** Edge-guided spatial attention and progressive training for depth estimation on transparent and visually ambiguous objects — where classical RGB-D fails.
+- **Metric 3D reconstruction with flow-matching generators.** Recovering physical scale from single-image reconstructions in foundation-scale generative 3D pipelines, without retraining the backbone.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before my PhD I worked on pattern recognition for vocal hyperfunction and on partial-membership latent Dirichlet allocation for soft image segmentation. I am especially interested in problems where the **real-world physical structure** of the scene matters — robotics grasping, AR placement, biological measurement — and the model has to ground its outputs in metric units.
+
+Feel free to reach me by email or on the platforms below.
