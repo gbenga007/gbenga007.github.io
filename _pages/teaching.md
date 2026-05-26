@@ -23,5 +23,5 @@ Responsibilities included:
 - Leading recitation sections walking through C++ idioms (RAII, smart pointers, move semantics)
 - Mentoring students on debugging tools (gdb, valgrind) and build systems (make, CMake)
 
-Across 8 semesters I supported several hundred students through their first
+Across 8 semesters I supported several students through their first
 substantive systems-programming course.
